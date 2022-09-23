@@ -1,0 +1,52 @@
+h1 {
+
+font-family: 'Bellota Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color:#a82927;
+}
+ 
+
+p.black {
+
+font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 14px;
+text-align: center;
+
+color: #0031B0;
+
+}
+
+a:default {
+    color: #000000;
+}
+
+a:hover{
+    color: #FC5552;
+}
+
+a:visited {
+    color: #0031B0;
+}
+
+img:hover {
+    opacity: 60%;
+}
+
+
