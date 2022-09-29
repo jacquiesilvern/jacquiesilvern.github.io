@@ -1,50 +1,72 @@
 h1 {
+    font-family: 'Bellota Text';
+    color: #0031B0;
+    text-align: center;
+}
 
-font-family: 'Bellota Text';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 38px;
-text-align: center;
-color: #000000;
+/* Nav Bar Begin */
+
+nav { 
+    padding: 1em;
+    position: sticky;
+    top: 0
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: -1;
+    list-style: none;
+    justify-content:space-evenly;
+}
+
+nav a {
+    color: #FFA10A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    color: #0031B0; 
+}
+
+/* Nav Bar End */
+article{
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 3em;
+    align-content: center;
+    
+}
+text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#000000
 }
 
 h2 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 30px;
-text-align: center;
-color:#a82927;
+display:flex;
+align-items: center;
+justify-content: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+color: #000000;
 }
  
-
 p.black {
-
 font-family: 'ABeeZee';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 14px;
-text-align: center;
-
 color: #0031B0;
-
+display:flex;
+align-items: center;
+justify-content: center;
 }
 
-a:default {
-    color: #000000;
+.image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-
-a:hover{
-    color: #FC5552;
-}
-
-a:visited {
-    color: #0031B0;
-}
-
 img:hover {
     opacity: 60%;
 }
