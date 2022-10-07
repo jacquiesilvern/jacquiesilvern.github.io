@@ -1,5 +1,7 @@
 h1 {
-    font-family: 'Bellota Text';
+    padding-top: .5em;
+    font-family: fenwick, sans-serif;
+    font-size: 50pt;
     color: #0031B0;
     text-align: center;
 }
@@ -8,9 +10,10 @@ h1 {
 
 nav { 
     background-color: white;
-    padding: 1em;
+    padding-bottom: 1em;
     position: sticky;
     top: 0
+
 }
 
 nav ul {
@@ -22,9 +25,10 @@ nav ul {
 }
 
 nav a {
+    font-family: komet, sans-serif;
+    font-size: 20pt;
     text-decoration: none;
     color: #FFA10A;
-    font-family: Verdana;
 }
 
 nav a:hover {
@@ -33,16 +37,16 @@ nav a:hover {
 
 /* Nav Bar End */
 
-
 article{
     padding: 5px;
     margin: auto;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    flex-direction: row;
     gap: 3em;
     justify-content: center;
     
 }
+
 .text{
     padding-top: 10em;
     align-content: center;
@@ -51,36 +55,129 @@ article{
 }
 
 h2 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-family: soleil, sans-serif;
     color: #000000;
 }
  
-p.black {
-font-family: 'ABeeZee';
-color: #0031B0;
+.black {
+order: 1;
+font-family: dashiell-fine, serif;
+color: #000000;
 }
 
-img:hover {
-    opacity: 60%;
+
+.image{
+    order: 2;
+    float:right;
 }
 
-@media only screen and (max-width: 700px) {
+
+/* About Page*/
+
+.about{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+}
+
+.aboutresume {
+    font-family: dashiell-fine, serif;
+    color: #000000;
+}
+
+.aboutlikes{
+    font-family: dashiell-fine, serif;
+    color: #000000;
+}
+/* About Page End*/
+
+/* Resume  begin*/
+.resume {
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    justify-items: center;      
+}
+
+.resume1 {
+    width:49%;
+    order: 3;
+}
+
+.resume2 {
+    width:49%;
+    order: 4;
+}
+
+/* Resume end*/
+
+/* Contact Page*/
+
+.contactgrid {
+    padding:5em;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.contact {
+    text-decoration: none;
+
+
+}
+
+.contactimg {
+    width: 440px;
+    float: right;
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
     .text {
         padding-top: 0em; }
     }
 
-  @media only screen and (max-width: 600px) {
+
+  @media only screen and (max-width: 700px) {
     nav {
         width: 100%;
         position: sticky;
     }
     nav ul {
         display: flex;
+
         align-content: center;
 
     }
+    article{
+        flex-direction: column;
+        order: 1, 2;
+        align-items: center;
+    }
+
     .text {
         padding-top: 0em;
     }
+
+    .resume {
+        flex-direction: column;
+        order: 1,2;
+        align-items: center;
+    }
+
+    .resume1{
+        width: 100%;
+    }
+
+    .resume2 {
+        width: 100%;
+    }
+
     
   }
