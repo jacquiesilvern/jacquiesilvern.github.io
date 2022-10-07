@@ -73,6 +73,30 @@ color: #000000;
 
 
 /* About Page*/
+.about {
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.aboutresume{
+    order:1;
+    font-family: dashiell-fine, serif;
+    color:#000000;
+    align-items: center;
+}
+
+.aboutimg {
+    order:2;
+    float:right;
+    width: 115%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    
+}
 
 /* About Page End*/
 
@@ -198,4 +222,8 @@ h3 a:hover {
         padding-top: 0em;
     }
     
+    .about {
+        flex-direction: column;
+        order: 1,2;
+    }
   }
