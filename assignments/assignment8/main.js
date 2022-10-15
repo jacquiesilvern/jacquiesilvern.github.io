@@ -20,9 +20,10 @@ function result() {
     let newStory = storyText;
     let xItem = randomValueFromArray(insertX);
     let yItem = randomValueFromArray(insertY);
-    let zitem = randomValueFromArray(insertZ);
+    let zItem = randomValueFromArray(insertZ);
 
     newStory= newStory.replace(':insertx', xItem);
+    newStory = newStory.replace(':insertx:', xItem);
     newStory= newStory.replace(':inserty', yItem);
     newStory= newStory.replace(':insertz', zItem);
 
