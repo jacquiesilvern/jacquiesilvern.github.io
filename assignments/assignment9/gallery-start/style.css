@@ -1,0 +1,54 @@
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  color:white;
+}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 400px;
+  align-items: center;
+}
+
+.displayed-img {
+  width: 400px;
+  height: 400px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  border: 0;
+  background: blue;
+  color: white;
+  text-shadow: 1px 1px 1ppx black;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
