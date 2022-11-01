@@ -1,30 +1,31 @@
 /* Problem #1: */
 const Employees = {
     
-let Sam : {
+let, Sam : {
         "FirstName": "Sam",
         "Department": "Tech",
         "Salary": 40000,
         "RaiseEligible": "True"
-      };
+      },
 
-let Mary : {
+let, Mary : {
         "FirstName": "Mary",
         "Department": "Finance",
         "Salary": 18500,
         "RaiseEligible": "True"
-      };
+      },
 
-let Bill : {
+let, Bill : {
         "FirstName": "Bill",
         "Department": "HR",
         "Salary": 21200,
         "RaiseEligible": "False"
-      };
+      },
 
-console.log("Problem 1:", Sam, Mary, Bill)
+console.log("Problem 1:", Sam, Mary, Bill),
+
  /* Problem 3 */     
-let Anna : {
+let, Anna : {
   "FirstName": "Anna",
   "Department": "Tech",
   "Salary": 25600,
