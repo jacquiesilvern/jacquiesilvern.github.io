@@ -1,0 +1,87 @@
+
+h1 {
+    padding-top: .5em;
+    font-family: fenwick, sans-serif;
+    font-size: 50pt;
+    color: #0031B0;
+    text-align: center;
+}
+
+/* Nav Bar Begin */
+
+nav { 
+    background-color: white;
+    padding-bottom: 1em;
+    position: sticky;
+    top: 0
+
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content:space-evenly;
+}
+
+nav a {
+    font-family: komet, sans-serif;
+    font-size: 20pt;
+    text-decoration: none;
+    color: #FFA10A;
+}
+
+nav a:hover {
+    color: #0031B0; 
+}
+
+/* Nav Bar End */
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.tile {
+    /*Box*/
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    /*Text */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background-color: #0031B0;
+    color: white;
+    border-color: white;
+}
+
+.present{
+    background-color:#FFA10A;
+    color: white;
+    border-color: white;
+}
+
+.wrong {
+    background-color: gray;
+    color: white;
+    border-color: white;
+
+}
+
+#answer {
+    justify-content: center;
+    align-items: center;
+}
