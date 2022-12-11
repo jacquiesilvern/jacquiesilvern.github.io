@@ -175,19 +175,16 @@ h3 a:hover {
     margin: 0 auto;
     margin-top: 20px;
     align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     
   }
   
   .thumb-bar img {
-    display: block;
     position: relative;
-    margin-left: 15px;
-    width: 15%;
-    float:left;
-    justify-content: center;
-    align-items: center;
+    width: 19%;
+    float:right;
+    margin: 5px;
     cursor: pointer;
   }
 
