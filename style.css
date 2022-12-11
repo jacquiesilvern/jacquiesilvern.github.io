@@ -79,23 +79,31 @@ color: #000000;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
 }
 
 .aboutresume{
+    display:inline-block;
+    width: fit-content;
+    height: auto;
     order:1;
     font-family: dashiell-fine, serif;
     color:#000000;
+    text-align:center;
     align-items: center;
 }
 
 .aboutimg {
+    
     order:2;
     float:right;
-    width: 115%;
+    width: 100%;
     display: grid;
+    height: auto;
     grid-template-columns: 1fr 1fr;
-    gap: 1px;
-    
+    gap: 1%; 
 }
 
 /* About Page End*/
@@ -103,7 +111,7 @@ color: #000000;
 /* Resume  begin*/
 .resume {
     padding: 5px;
-    margin: auto;
+    margin: 20px;
     display: flex;
     flex-direction: row;
     gap: 3em;
@@ -139,7 +147,7 @@ h3 a:hover {
 }
 
 .contactgrid {
-    margin:auto;
+    margin: 30px;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -154,14 +162,37 @@ h3 a:hover {
 
 .contactimg {
     padding-top: 3em;
-    width: 50%;
+    width: 35%;
     float: right;
     order: 2;
 }
 
 /*Contact page ends*/
+/* Travel */
+
+  .displayed-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    
+  }
+  
+  .thumb-bar img {
+    display: block;
+    position: relative;
+    margin-left: 15px;
+    width: 15%;
+    float:left;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 
 
+/* Travel Ends*/
 @media only screen and (max-width: 800px) {
     .text {
         padding-top: 0em; }
@@ -223,7 +254,14 @@ h3 a:hover {
     }
     
     .about {
+    
         flex-direction: column;
         order: 1,2;
     }
+
+    .aboutresume {
+        width: auto;
+      }
   }
+
+  
