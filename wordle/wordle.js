@@ -1,11 +1,12 @@
 let height = 5; //number of guesses
 let width = 5; // length of the word
 
-let row = 0; //current attempt #
-let column = 0; //current letter for attempt
+let row = 0; 
+let column = 0; 
 
 let gameover= false;
-let wordList = ["enter", "anger", "still", "proud", "cause","china", "given", "reach","sense","maker","spare","sleep","twice","laugh", "where", "model", "shirt", "meant", "sharp", "sugar", "never", "lying", "layer", "mixed", "young", "route", "asset", "basic", "hence", "paper", "alone", "arise", "women", "taxes", "vital", "issue", "study", "mouse", "carry", "alert", "chair", "table", "texas", "class", "loose", "actor", "catch", "adopt"];
+
+let wordList = ["words", "anger", "still", "proud", "cause","china", "given", "reach","sense","maker","spare","sleep","twice","laugh", "where", "model", "shirt", "meant", "sharp", "sugar", "never", "lying", "layer", "mixed", "young", "route", "asset", "basic", "hence", "paper", "alone", "arise", "women", "taxes", "vital", "issue", "study", "mouse", "carry", "alert", "chair", "table", "texas", "class", "loose", "actor", "catch", "adopt"];
 
 let words = wordList[Math.floor(Math.random()*wordList.length)].toUpperCase();
 
