@@ -38,13 +38,18 @@ nav a:hover {
 
 /* Nav Bar End */
 
+#title {
+    font-family: "soleil",sans-serif;
+    text-align: center;
+}
+
 #board {
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 30px;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    margin-top: 20px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .tile {

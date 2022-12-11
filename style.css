@@ -39,7 +39,7 @@ nav a:hover {
 
 article{
     padding: 5px;
-    margin: auto;
+    margin: 20px;
     display: flex;
     flex-direction: row;
     gap: 3em;
@@ -169,6 +169,12 @@ h3 a:hover {
 
 /*Contact page ends*/
 /* Travel */
+
+.traveltxt {
+    font-family: soleil, sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
 
   .displayed-img {
     display: block;
